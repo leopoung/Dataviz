@@ -7,7 +7,7 @@ with col1:
         "EFREI M1 Data Engineering Student  \nPromo 2026"
     )
 with col2:
-    st.image('image/profil.jpg')
+    st.image('profil.jpg')
 
 st.write("\n")
 st.write("My name is Léo, and I am currently a Master 1 student at EFREI Paris, majoring in Data Engineering. Throughout my academic journey, I have developed a strong foundation in programming, data analysis, and database management. I have worked with tools such as Python, SQL, and Power BI, as well as frameworks like Spark and Kafka, giving me hands-on experience in big data projects.")
