@@ -3,3 +3,4 @@ seaborn
 folium
 streamlit_folium
 streamlit
+geopandas
