@@ -1,5 +1,7 @@
 import streamlit as st
 
+image_url = "https://media.licdn.com/dms/image/v2/D4E03AQGsToYB-6uNBg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724770217744?e=1735171200&v=beta&t=0W-vbOWKaEclvOCPe7v0FR3R74bt_cpCZCktNjuZQd8"
+
 col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
 with col1:
     st.title("Poung Léo", anchor=False)
@@ -7,7 +9,7 @@ with col1:
         "EFREI M1 Data Engineering Student  \nPromo 2026"
     )
 with col2:
-    st.image('profil.JPG')
+    st.image(image_url)
 
 st.write("\n")
 st.write("My name is Léo, and I am currently a Master 1 student at EFREI Paris, majoring in Data Engineering. Throughout my academic journey, I have developed a strong foundation in programming, data analysis, and database management. I have worked with tools such as Python, SQL, and Power BI, as well as frameworks like Spark and Kafka, giving me hands-on experience in big data projects.")
